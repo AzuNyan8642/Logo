@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="style/fonts.css">
 	</head>
 	<body>
-		<header>
+		<header id="header">
 			<a href="" class="logo"><img src="images/logo.png" width="80px"></a>
 			<div class="header_container">
 				<video class="video" src="images/Pencil-8256.mp4" autoplay muted loop></video>
@@ -16,9 +16,10 @@
 				​Проверь свои знания<br>вместе с Logo !
 			</h1>
 			<a href="test.html" class="button light">Перейти к тестам</a>
+			<a href="#block_1" class="scroll scroll_down"><img src="images/scroll.png" width="20px"></a>
 		</header>
 		<main>
-			<div class="block block_first">
+			<div class="block block_first" id="block_1">
 				<div class="container_center">
 					<div class="block_container">
 						<div class="bg_image bg_image_first"></div>
@@ -31,8 +32,10 @@
 					</div>
 				</div>
 				<a href="test.html" class="button dark">Перейти к тестам</a>
+				<a href="#block_2" class="scroll scroll_down"><img src="images/scroll.png" width="20px"></a>
+				<a href="#header" class="scroll scroll_up"><img src="images/scroll.png" width="20px"></a>
 			</div>
-			<div class="block block_second">
+			<div class="block block_second" id="block_2">
 				<div class="container_center">
 					<div class="block_container">
 						<div class="bg_text bg_text_second">
@@ -45,8 +48,10 @@
 					</div>
 				</div>
 				<a href="test.html" class="button light">Перейти к тестам</a>
+				<a href="#block_3" class="scroll scroll_down"><img src="images/scroll.png" width="20px"></a>
+				<a href="#block_1" class="scroll scroll_up"><img src="images/scroll.png" width="20px"></a>
 			</div>
-			<div class="block block_last">
+			<div class="block block_last" id="block_3">
 				<div class="container_center">
 					<div class="column_container">
 						<div>
@@ -67,8 +72,10 @@
 					</div>
 				</div>
 				<a href="test.html" class="button dark">Перейти к тестам</a>
+				<a href="#footer" class="scroll scroll_down"><img src="images/scroll.png" width="20px"></a>
+				<a href="#block_2" class="scroll scroll_up"><img src="images/scroll.png" width="20px"></a>
 			</div>
-			<footer class="block_footer">
+			<footer class="block_footer" id="footer">
 				<img src="images/6.jpg" class="footer_bg">
 				<div class="footer_main">
 					<h2>​Завалил тест ?</h2>
