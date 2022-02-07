@@ -30,7 +30,7 @@ p {
 
 header {
 	position: relative;
-	height: 700px;
+	height: 970px;
 	background-image: url("images/Pencil-8256.mp4");
 	overflow: hidden;
 }
@@ -65,7 +65,7 @@ header {
 	position: relative;
 	display: flex;
 	align-items: center;
-	height: 700px;
+	height: 970px;
 }
 
 .block_second {
@@ -115,7 +115,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 700px;
+	height: 970px;
 }
 
 .column_container div {
@@ -155,7 +155,7 @@ nav {
 
 .block_footer {
 	position: relative;
-	height: 700px;
+	height: 970px;
 	text-align: center;
 	overflow: hidden;
 	color: white;
